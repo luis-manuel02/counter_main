@@ -1,0 +1,11 @@
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        applicationId "com.example.weartest"
+        minSdkVersion 21
+        targetSdkVersion 31
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+}
